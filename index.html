@@ -1,0 +1,661 @@
+
+
+<!doctype html>
+<html>
+<!-- 
+    GCC编写。第一次使用mui+vue开发。。所以比较烂，后面接手or修改的人请轻喷，不服你自己重写啊。。。。。。
+ -->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport"
+	content="width=device-width; initial-scale=1.0; maximum-scale=1.0; minimum-scale=1.0;">
+<meta name="format-detection" content="telephone=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="keywords" content="教育百科">
+<meta name="description" content="教育百科">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<script type="text/javascript" src="/hybrid/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="/hybrid/js/vue.js"></script>
+<link rel="stylesheet" href="/hybrid/css/mui.min.css"
+	rel="external nofollow">
+<script src="js/nat.js" type="text/javascript" charset="UTF-8"></script>
+<script src="js/protobuf.js" type="text/javascript" charset="UTF-8"></script>
+<link href="css/pl.css?v=4" rel="stylesheet" type="text/css">
+<title>教育百科</title>
+</head>
+
+<body style="-webkit-user-select:text;">
+	<div>
+		<div id="pullrefresh" class="mui-content mui-scroll-wrapper">
+			<div class="mui-scroll">
+				<div class="ztch">
+					<div class="ftBox2">
+						<input type="hidden" value="946"
+							id="articleId">
+						<h1 class="ftBox2H1">最朴实、暖心的西式早餐——奶酪司康</h1>
+						<span class="ztchSpan1"><img src="images/in-8.png"><strong>2016-01-05 14:33:30.0</strong></span>
+						<span class="ztchSpan3"><strong>597</strong><img
+							src="images/in-1.png"></span>
+					</div>
+					<div class="ftBox3"><section style="border:none;margin:0.5em 0px;text-align:center;box-sizing:border-box;padding:0px;" class="tn-Powered-by-XIUMI"><section style="border:0.1em solid #ff8124;display:inline-block;border-radius:0.5em;padding:5px;font-size:100%;font-family:inherit;text-align:left;text-decoration:inherit;color:#050100;box-sizing:border-box;" class="tn-Powered-by-XIUMI"><section style="border-top-width:0.1em;border-top-style:solid;border-color:#ff8124;padding:0px 5px;box-sizing:border-box;margin-top:5px;" class="tn-Powered-by-XIUMI"><section class="tn-Powered-by-XIUMI" style="box-sizing:border-box;">司康饼(scone)，是英式快速面包 (Quick Bread) ，它的名字是由苏格兰皇室加冕的地方，一块有长久历史并被称为司康之石 (Stone of Scone) 或命运之石 (Stone of Destiny)的石头而来的。传统的司康饼以燕麦为主要材料，现在面粉成了主要材料，除了三角形也可以做成圆形、方形或是菱形等各式形状。司康饼可以做成甜的口味，也可以做成咸的口味，除了可以做为早餐之外，也可以当成点心。</section></section></section><section style="width:0px;height:0px;clear:both;"></section></section><section style="border:0px;clear:both;font-size:1em;font-family:inherit;text-align:justify;text-decoration:inherit;color:inherit;box-sizing:border-box;padding:0px;margin-top:0px;margin-bottom:0px;" class="tn-Powered-by-XIUMI"><section class="tn-Powered-by-XIUMI" style="box-sizing:border-box;">有着粗犷朴实的样子和浓郁的奶香，别看它有个“洋气”的名称，其实是超级超级懒人的烘焙方子，手和脑子都不用动几下的。轻轻松松体会到烘焙带来的满足感和幸福感。强烈推荐！我准备最近多做一些。</section><section class="tn-Powered-by-XIUMI" style="box-sizing:border-box;"><br class="tn-Powered-by-XIUMI" style="box-sizing:border-box;" /></section><section class="tn-Powered-by-XIUMI" style="box-sizing:border-box;">妈妈们在做给孩子们吃的时候，要记得把美食背后的文化传递给孩子哦，美食才会显得更有魅力，同时可以拓展孩子的文化视野。</section><section style="width:0px;height:0px;clear:both;"></section></section><section style="border:none;margin:0.5em 0px;box-sizing:border-box;padding:0px;" class="tn-Powered-by-XIUMI"><section style="border-left-width:10px;border-left-style:solid;border-color:#8ec965;line-height:2em;padding:0.5em;border-radius:5px 0px 0px 5px;box-shadow:#999999 0em 0.2em 0.2em;font-size:1em;font-family:inherit;text-decoration:inherit;box-sizing:border-box;background-color:#efefef;" class="tn-Powered-by-XIUMI"><section class="tn-Powered-by-XIUMI" style="box-sizing:border-box;"><strong class="tn-Powered-by-XIUMI" style="box-sizing:border-box;">【奶酪司康】</strong></section><section class="tn-Powered-by-XIUMI" style="box-sizing:border-box;">适合宝宝：1岁以上。</section><section class="tn-Powered-by-XIUMI" style="box-sizing:border-box;"><span style="color:#ff8124;box-sizing:border-box;" class="tn-Powered-by-XIUMI"><strong class="tn-Powered-by-XIUMI" style="box-sizing:border-box;">原料：</strong></span></section><section class="tn-Powered-by-XIUMI" style="box-sizing:border-box;">低筋面粉100克，切达奶酪30克（或马苏里拉奶酪40克），白砂糖5克，盐1/4小勺（做甜味可省略），泡打粉3克，黄油20克，牛奶70毫升，低筋面粉（成型后用）适量。</section><section class="tn-Powered-by-XIUMI" style="box-sizing:border-box;"><strong class="tn-Powered-by-XIUMI" style="box-sizing:border-box;"><span style="color:#ff8124;box-sizing:border-box;" class="tn-Powered-by-XIUMI">工具：</span></strong></section><section class="tn-Powered-by-XIUMI" style="box-sizing:border-box;">橡皮刮刀、烤箱。</section></section><section style="width:0px;height:0px;clear:both;"></section></section><section style="border:0px;box-sizing:border-box;width:100%;clear:both;margin:0.8em 0px 0px;padding:0px 0.5em 0.5em 0px;" class="tn-Powered-by-XIUMI"><img style="box-sizing:border-box;width:100%;-webkit-box-shadow:#666666 0.2em 0.2em 0.5em;box-shadow:#666666 0.2em 0.2em 0.5em;height:auto !important;" src="http://img.xiumi.us/xmi/rc/9uGv/i/2160685875cd0dae9fb3fb79e0ecb025-sz_56475.jpg@1l_640w.jpg" class="tn-Powered-by-XIUMI" /><section style="width:0px;height:0px;clear:both;"></section></section><section style="border:0px;margin:0.8em 0px 0.5em;box-sizing:border-box;padding:0px;" class="tn-Powered-by-XIUMI"><span style="display:inline-block;padding:0.3em 0.5em;border-radius:0.5em;color:#110401;font-size:1em;box-shadow:#a5a5a5 0.2em 0.2em 0.1em;font-family:inherit;font-weight:bold;text-decoration:inherit;border-color:#8ec965;box-sizing:border-box;background-color:#8ec965;" class="tn-Powered-by-XIUMI"><section class="tn-Powered-by-XIUMI" style="box-sizing:border-box;">做法</section></span><section style="width:0px;height:0px;clear:both;"></section></section><section style="border:0px;clear:both;font-size:1em;font-family:inherit;text-align:justify;text-decoration:inherit;color:inherit;box-sizing:border-box;padding:0px;margin-top:0px;margin-bottom:0px;" class="tn-Powered-by-XIUMI"><section class="tn-Powered-by-XIUMI" style="box-sizing:border-box;">1.低筋面粉、砂糖、盐、泡打粉混合搅拌均匀；奶酪和黄油都切成小方块。</section><section style="width:0px;height:0px;clear:both;"></section></section><section style="border:0px;box-sizing:border-box;width:100%;clear:both;margin:0.8em 0px 0px;padding:0px 0.5em 0.5em 0px;" class="tn-Powered-by-XIUMI"><img style="box-sizing:border-box;width:100%;-webkit-box-shadow:#666666 0.2em 0.2em 0.5em;box-shadow:#666666 0.2em 0.2em 0.5em;height:auto !important;" src="http://img.xiumi.us/xmi/rc/9uGv/i/cc846b47850a804e61822cd5ad2c3d48-sz_24893.jpg@1l_640w.jpg" class="tn-Powered-by-XIUMI" /><section style="width:0px;height:0px;clear:both;"></section></section><section style="border:0px;clear:both;font-size:1em;font-family:inherit;text-align:justify;text-decoration:inherit;color:inherit;box-sizing:border-box;padding:0px;margin-top:0px;margin-bottom:0px;" class="tn-Powered-by-XIUMI"><section class="tn-Powered-by-XIUMI" style="box-sizing:border-box;">2.先把黄油放入混合粉中，用手指压碎、压扁。</section><section style="width:0px;height:0px;clear:both;"></section></section><section style="border:0px;box-sizing:border-box;width:100%;clear:both;margin:0.8em 0px 0px;padding:0px 0.5em 0.5em 0px;" class="tn-Powered-by-XIUMI"><img style="box-sizing:border-box;width:100%;-webkit-box-shadow:#666666 0.2em 0.2em 0.5em;box-shadow:#666666 0.2em 0.2em 0.5em;height:auto !important;" src="http://img.xiumi.us/xmi/rc/9uGv/i/5f9c02cb0c8b18a8f30a72b375a41b52-sz_21736.jpg@1l_640w.jpg" class="tn-Powered-by-XIUMI" /><section style="width:0px;height:0px;clear:both;"></section></section><section style="border:0px;clear:both;font-size:1em;font-family:inherit;text-align:justify;text-decoration:inherit;color:inherit;box-sizing:border-box;padding:0px;margin-top:0px;margin-bottom:0px;" class="tn-Powered-by-XIUMI"><section class="tn-Powered-by-XIUMI" style="box-sizing:border-box;">3.黄油细碎，和面粉充分混合后倒入奶酪丁。奶酪丁不用再碾碎，就是需要它在面团里是小块状。</section><section style="width:0px;height:0px;clear:both;"></section></section><section style="border:0px;box-sizing:border-box;width:100%;clear:both;margin:0.8em 0px 0px;padding:0px 0.5em 0.5em 0px;" class="tn-Powered-by-XIUMI"><img style="box-sizing:border-box;width:100%;-webkit-box-shadow:#666666 0.2em 0.2em 0.5em;box-shadow:#666666 0.2em 0.2em 0.5em;height:auto !important;" src="http://img.xiumi.us/xmi/rc/9uGv/i/a5be7f58ebf5250528f9a552e9fdb482-sz_22352.jpg@1l_640w.jpg" class="tn-Powered-by-XIUMI" /><section style="width:0px;height:0px;clear:both;"></section></section><section style="border:0px;clear:both;font-size:1em;font-family:inherit;text-align:justify;text-decoration:inherit;color:inherit;box-sizing:border-box;padding:0px;margin-top:0px;margin-bottom:0px;" class="tn-Powered-by-XIUMI"><section class="tn-Powered-by-XIUMI" style="box-sizing:border-box;">4.倒入牛奶，用橡皮刮刀搅拌均匀。待面团变湿润从容器中取出，用刮刀将面团切半，叠加并按压，反复2-3次。</section><section style="width:0px;height:0px;clear:both;"></section></section><section style="border:0px;box-sizing:border-box;width:100%;clear:both;margin:0.8em 0px 0px;padding:0px 0.5em 0.5em 0px;" class="tn-Powered-by-XIUMI"><img style="box-sizing:border-box;width:100%;-webkit-box-shadow:#666666 0.2em 0.2em 0.5em;box-shadow:#666666 0.2em 0.2em 0.5em;height:auto !important;" src="http://img.xiumi.us/xmi/rc/9uGv/i/a431e7047f9441d94bac7f06bf4e8c7b-sz_14749.jpg@1l_640w.jpg" class="tn-Powered-by-XIUMI" /><section style="width:0px;height:0px;clear:both;"></section></section><section style="border:0px;clear:both;font-size:1em;font-family:inherit;text-align:justify;text-decoration:inherit;color:inherit;box-sizing:border-box;padding:0px;margin-top:0px;margin-bottom:0px;" class="tn-Powered-by-XIUMI"><section class="tn-Powered-by-XIUMI" style="box-sizing:border-box;">5.合拢后用手压成1厘米厚，用刮刀切成长条再切成小三角块，完成整形。</section><section style="width:0px;height:0px;clear:both;"></section></section><section style="border:0px;box-sizing:border-box;width:100%;clear:both;margin:0.8em 0px 0px;padding:0px 0.5em 0.5em 0px;" class="tn-Powered-by-XIUMI"><img style="box-sizing:border-box;width:100%;-webkit-box-shadow:#666666 0.2em 0.2em 0.5em;box-shadow:#666666 0.2em 0.2em 0.5em;height:auto !important;" src="http://img.xiumi.us/xmi/rc/9uGv/i/1d280566e83f3b542e6e564cbce44e2b-sz_30145.jpg@1l_640w.jpg" class="tn-Powered-by-XIUMI" /><section style="width:0px;height:0px;clear:both;"></section></section><section style="border:0px;clear:both;font-size:1em;font-family:inherit;text-align:justify;text-decoration:inherit;color:inherit;box-sizing:border-box;padding:0px;margin-top:0px;margin-bottom:0px;" class="tn-Powered-by-XIUMI"><section class="tn-Powered-by-XIUMI" style="box-sizing:border-box;">6.将小三角块间隔摆放在铺好烘培油纸的托盘上，用面粉筛在面团上筛上薄薄一层低筋粉。</section><section style="width:0px;height:0px;clear:both;"></section></section><section style="border:0px;box-sizing:border-box;width:100%;clear:both;margin:0.8em 0px 0px;padding:0px 0.5em 0.5em 0px;" class="tn-Powered-by-XIUMI"><img style="box-sizing:border-box;width:100%;-webkit-box-shadow:#666666 0.2em 0.2em 0.5em;box-shadow:#666666 0.2em 0.2em 0.5em;height:auto !important;" src="http://img.xiumi.us/xmi/rc/9uGv/i/bc6d5b3dfe20baa2491ce0900370fd8b-sz_33495.jpg@1l_640w.jpg" class="tn-Powered-by-XIUMI" /><section style="width:0px;height:0px;clear:both;"></section></section><section style="border:0px;clear:both;font-size:1em;font-family:inherit;text-align:justify;text-decoration:inherit;color:inherit;box-sizing:border-box;padding:0px;margin-top:0px;margin-bottom:0px;" class="tn-Powered-by-XIUMI"><section class="tn-Powered-by-XIUMI" style="box-sizing:border-box;">7.烤箱上下火，置于上层，175度烤15分钟就大功告成啦！</section><section style="width:0px;height:0px;clear:both;"></section></section><section style="border:0px;box-sizing:border-box;width:100%;clear:both;margin:0.8em 0px 0px;padding:0px 0.5em 0.5em 0px;" class="tn-Powered-by-XIUMI"><img style="box-sizing:border-box;width:100%;-webkit-box-shadow:#666666 0.2em 0.2em 0.5em;box-shadow:#666666 0.2em 0.2em 0.5em;height:auto !important;" src="http://img.xiumi.us/xmi/rc/9uGv/i/5b10f472b453d0d6e87596c8a78b8aad-sz_75929.jpg@1l_640w.jpg" class="tn-Powered-by-XIUMI" /><section style="width:0px;height:0px;clear:both;"></section></section><section style="width:100%;border:none;margin:0.5em 0px;box-sizing:border-box;padding:0px;" class="tn-Powered-by-XIUMI"><section style="width:40px;height:40px;float:right;box-sizing:border-box;background-color:#ffffff;" class="tn-Powered-by-XIUMI"><section style="width:1px;box-shadow:#666666 -1px 1px 2px;box-sizing:border-box;" class="tn-Powered-by-XIUMI"><section style="border-width:20px;border-style:solid;border-color:transparent transparent #999999 #999999;box-sizing:border-box;" class="tn-Powered-by-XIUMI"></section><section style="border-width:18px;border-style:solid;border-color:transparent transparent #fffff0 #fffff0;box-sizing:border-box;margin-top:-38px;margin-left:1px;" class="tn-Powered-by-XIUMI"></section></section></section><section style="width:100%;height:100%;border:1px solid #cccccc;box-sizing:border-box;" class="tn-Powered-by-XIUMI"><section style="width:80%;height:40px;line-height:1.5em;border-bottom-width:5px;border-bottom-style:solid;border-color:#8ec965;box-sizing:border-box;font-size:150%;font-family:inherit;font-weight:bold;text-decoration:inherit;color:#f50873;margin-left:8px;" class="tn-Powered-by-XIUMI"><section class="tn-Powered-by-XIUMI" style="box-sizing:border-box;">妈妈唠叨</section></section><section style="width:100%;height:100%;padding:8px;font-size:1em;font-family:inherit;text-decoration:inherit;color:#2a343a;box-sizing:border-box;margin-top:0.5em;" class="tn-Powered-by-XIUMI"><section class="tn-Powered-by-XIUMI" style="box-sizing:border-box;">☆如果想吃甜口的，只需要省略盐，加入10-20克白糖即可。甜味的更浓郁，咸味的吃过后肠胃更舒服。亲们根据自己的喜好选择吧！<br class="tn-Powered-by-XIUMI" style="box-sizing:border-box;" /></section><section class="tn-Powered-by-XIUMI" style="box-sizing:border-box;"><br class="tn-Powered-by-XIUMI" style="box-sizing:border-box;" /></section><section class="tn-Powered-by-XIUMI" style="box-sizing:border-box;">☆司康里加的奶酪丁，可以是切达奶酪也可以是马苏里拉奶酪，切达奶酪更浓郁，咸味重一些；马苏里拉奶香清爽些，因为高温后会融化，要注意别烤过火了导致奶酪流出。这两种奶酪在大超市的冷冻食品区都能买到。<br class="tn-Powered-by-XIUMI" style="box-sizing:border-box;" /></section><section class="tn-Powered-by-XIUMI" style="box-sizing:border-box;"><br class="tn-Powered-by-XIUMI" style="box-sizing:border-box;" /></section><section class="tn-Powered-by-XIUMI" style="box-sizing:border-box;">☆别忘了烘焙通用法则：每台烤箱的温度都不太一样，摸清自家烤箱的脾气，快烤好的时候看着司康的状态随时准备关火，否则容易烤糊。我这次烤的就稍有些过火。<br class="tn-Powered-by-XIUMI" style="box-sizing:border-box;" /></section><section class="tn-Powered-by-XIUMI" style="box-sizing:border-box;"><br class="tn-Powered-by-XIUMI" style="box-sizing:border-box;" /></section><section class="tn-Powered-by-XIUMI" style="box-sizing:border-box;">☆普通的泡打粉是含铝的，现在好的泡打粉例如“朱师傅”牌的是无铝的，健康安全，宝妈们在网上或者烘焙店里找一下。</section></section></section><section style="width:0px;height:0px;clear:both;"></section></section><blockquote style="box-sizing:border-box;margin:0.5em 0px 0.3em;padding:0px;border:none;font-size:1.5em;font-family:inherit;" class="tn-Powered-by-XIUMI"><h2 style="font-size:66.6667%;font-family:inherit;text-decoration:inherit;color:#0a0201;box-sizing:border-box;" class="tn-Powered-by-XIUMI"><section class="tn-Powered-by-XIUMI" style="box-sizing:border-box;"><strong class="tn-Powered-by-XIUMI" style="box-sizing:border-box;">（本菜谱内容出自微信公众号“小嘴吧嗒”，更多菜谱请按以下方法关注后获取）</strong></section></h2></blockquote><section style="border:0px;box-sizing:border-box;width:100%;margin:0.8em 0px 0.2em;clear:both;padding:0px;" class="tn-Powered-by-XIUMI"><img style="box-sizing:border-box;width:100%;height:auto !important;" src="http://img.xiumi.us/xmi/ua/9uGv/i/52d4b219f103f25722aaa337a33c5157-sz_47805.jpg@1l_640w.jpg" class="tn-Powered-by-XIUMI" /><section style="width:0px;height:0px;clear:both;"></section></section><section style="border:none;margin:0.5em 0px;padding:0px 3px;box-sizing:border-box;" class="tn-Powered-by-XIUMI"><section style="display:inline-block;padding:5px;font-size:1.2em;font-family:inherit;text-decoration:inherit;box-sizing:border-box;margin-left:2.5em;" class="tn-Powered-by-XIUMI"><section class="tn-Powered-by-XIUMI" style="box-sizing:border-box;">亲，快到下面评论哦！</section></section><section style="text-align:right;width:100%;box-sizing:border-box;" class="tn-Powered-by-XIUMI"><section style="width:99.9%;float:left;height:0px;border-top-width:1px;border-top-style:solid;border-color:#8ec965;box-sizing:border-box;" class="tn-Powered-by-XIUMI"></section><section style="width:6px;height:6px;float:right;border-radius:100%;box-sizing:border-box;background-color:#8ec965;margin-top:-3px;" class="tn-Powered-by-XIUMI"></section></section><section style="width:3em;height:3em;display:inline-block;border:1px solid #8ec965;border-radius:100%;box-sizing:border-box;margin-top:-1.5em;" class="tn-Powered-by-XIUMI"><section style="width:100%;height:100%;border-radius:100%;box-sizing:border-box;background-image:url(http://img.xiumi.us/stc/images/templates-assets/parts/701-other/031-title-card.gif);background-size:cover;background-position:50% 50%;background-repeat:no-repeat;" class="tn-Powered-by-XIUMI"></section></section><section style="width:0px;height:0px;clear:both;"></section></section><p><br /></p></div>
+				</div>
+				<div class="pl" id="hot">
+					<div class="plBox2">
+						<h1>
+							<img src="images/in-2.png">热门评论
+						</h1>
+					</div>
+					<ul class="container">
+						<li v-for="item in myData"><span class="plBox1Img"><img
+								v-bind:src="item.photoUrl"></span>
+							<article class="plAe">
+								<a href="javascript:;" class="plAeLink1">
+								<strong id="zn{{item.id}}hot">{{item.zanNum}}</strong> 
+								<img v-if="!item.zanMark" src="images/in-10.png"  id="zanImg" zid="{{item.id}}" type="3" zanMark="{{item.zanMark}}1">
+								<img v-else src="images/in-10-1.png" id="zanImg" zid="{{item.id}}" type="3" zanMark="{{item.zanMark}}1"></a> 
+								<a href="javascript:;" class="md-trigger plAeLink2" data-modal="modal-3" id="showCommentView" 
+								commentId = "{{item.id}}" toUcId="{{item.ucid}}">
+								<strong>回复TA</strong> 
+								<img src="images/in-9.png"></a>
+								<h1 class="plAeH1">{{item.nickName}}</h1>
+								<a class="md-trigger plAeLink6" data-modal="modal-3">
+								<font commentId = "{{item.id}}"  toUcId="{{item.ucid}}"
+									style="cursor: pointer;" id="showCommentView" >{{item.commentMsg}}</font>
+								</a>
+								<h2 class="plAeH2">{{item.createDate}}</h2>
+								<a v-show="item.ucid == myData.ucId" href="javascript:;" class="plAeLink3" commentId="{{item.id}}">删除</a>
+							</article>
+
+							<article v-show="item.replyList.length > 0" class="plAe plAeBr">
+								<img src="images/pl-1.png" class="plAeImg">
+								<aside v-for="info in item.replyList | limitBy 3"
+									class="plAeAside">
+									<a class="plAeAsideLink md-trigger" data-modal="modal-3">
+									<span  commentId="{{item.id}}" toUcId="{{item.ucid}}" replyId="{{info.id}}" style="cursor: pointer;" id="showCommentView" ><strong>{{info.nickName}}</strong>回复
+											<strong>{{info.toNickName}}{{item.replyList.length}}：</strong>{{info.msg}}</span></a> 
+									<a v-show="info.ucid == myData.ucId" href="javascript:;" class="plAeLink5" replayId="{{info.id}}" commentId="{{item.id}}">删除</a>
+								</aside>
+								<a v-show="item.replyList.length > 3"
+									href="plxq.html?article=946&commentId={{item.id}}"
+									class="plAeLink4" id="ahref"> <img src="images/in-11.png"><strong>更多{{item.replyList.length-3}}条评论</strong>
+								</a>
+							</article></li>
+					</ul>
+				</div>
+				<div class="pl" id="all">
+					<div class="plBox2">
+						<h1>
+							<img src="images/in-2.png">全部评论
+						</h1>
+					</div>
+					<ul class="commentList mui-table-view mui-table-view-chevron">
+
+						<li v-for="item in myData"><span class="plBox1Img"> <img
+								v-bind:src="item.photoUrl"></span>
+							<article class="plAe">
+								<a href="javascript:;" class="plAeLink1">
+								<strong id="zn{{item.id}}all">{{item.zanNum}}</strong> 
+								<img v-if="!item.zanMark" src="images/in-10.png" id="zanImg" zid="{{item.id}}" type="3" zanMark="{{item.zanMark}}1">
+								<img v-else src="images/in-10-1.png" id="zanImg" zid="{{item.id}}" type="3" zanMark="{{item.zanMark}}1"></a>
+									
+								<a class="plAeLink2 md-trigger" data-modal="modal-3"> 
+								<strong commentId="{{item.id}}" toUcId="{{item.ucid}}" style="cursor: pointer;" id="showCommentView">回复TA</strong> 
+								<img src="images/in-9.png"></a>
+								<h1 class="plAeH1">{{item.nickName}}</h1>
+								<a class="plAeLink6 md-trigger" data-modal="modal-3">
+								<font commentId="{{item.id}}" toUcId="{{item.ucid}}" id="showCommentView" style="cursor: pointer;">{{item.commentMsg}}</font> </a>
+								<h2 class="plAeH2">{{item.createDate}}</h2>
+								<a v-show="item.ucid == myData.ucId" href="javascript:;" class="plAeLink3" commentId="{{item.id}}">删除</a>
+							</article>
+
+							<article v-show="item.replyList.length > 0" class="plAe plAeBr">
+								<img src="images/pl-1.png" class="plAeImg">
+								<aside v-for="info in item.replyList | limitBy 3"
+									class="plAeAside">
+									<a class="plAeAsideLink">
+									<span commentId="{{item.id}}" toUcId="{{item.ucid}}" replyId="{{info.id}}"
+										style="cursor: pointer;" id="showCommentView"><strong>{{info.nickName}}</strong>回复
+											<strong>{{info.toNickName}}{{item.replyList.length}}：</strong>{{info.msg}}</span></a> 
+										<a v-show="info.ucid == myData.ucId" href="javascript:;" class="plAeLink5" replayId="{{info.id}}" commentId="{{item.id}}">删除</a>
+								</aside>
+								<a v-show="item.replyList.length > 3"
+									href="plxq.html?article=946&commentId={{item.id}}"
+									class="plAeLink4" id="ahref"> <img src="images/in-11.png"><strong>更多{{item.replyList.length-3}}条评论</strong>
+								</a>
+							</article></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--  
+<footer class="foot2">
+	<a href="#">下载</a>
+</footer>
+-->
+		<footer id="foot">
+			<a href="javascript:;" class="md-trigger footLink3"
+				data-modal="modal-3" style="z-index: -1"></a> <span id="showPl">
+				<form>
+					<input name=""  type="text" readonly placeholder="评论也是一种鼓励">
+				</form>
+			</span> <a href="javascript:;" class="footLink1"><strong>5</strong> 
+			
+			
+			<img src="images/pl-2.png">
+			
+			</a> 
+			<a href="#" class="footLink2"><strong>102</strong>
+				<img src="images/pl-3.png"></a>
+		</footer>
+		<div class="md-modal md-effect-3" id="modal-3">
+			<div class="md-content">
+				<div class="md-contentBox1">
+					<textarea class="md-contentQy" placeholder="点此输入您的评论"></textarea>
+					<button class="md-fasong">发表</button>
+					<button class="md-close" onclick="hiddenCommentView()">关闭</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="/hybrid/js/mui.min.js"></script>
+	<script type="text/javascript">
+	
+	$('.ftBox3').find('img').on('click', function() {
+		alert($(this).attr('src'))
+	});
+	
+	var  contentType=1;
+	var  arData={
+			articleId:$(articleId).val()
+		};
+		var hcdata={
+			contentId:$(articleId).val(),
+			contentType:contentType
+		};
+		
+		var allcdata={
+			contentId:$(articleId).val(),
+			contentType:contentType
+		};
+	if(hxyapp.req_u!=null){
+		arData.u=hxyapp.req_u;
+		hcdata.u=hxyapp.req_u;
+		allcdata.u=hxyapp.req_u;
+	}
+	var commentIds;	//评论ID
+	var toReplyId; //回复ID
+	var toUcIds;//回复人ID
+	var vueData = {
+			contentId: $('#articleId').val(),
+			contentType: 1,
+			commentId: 0
+		}
+	var vm = new Vue({
+		el: '.container',
+		data: {
+			myData: null,
+		},
+		methods: {
+			add: function(data) {
+				this.myData = data;
+			},
+			reset: function() {},
+			del: function(index) {
+				this.myData.splice(index, 1)
+			},
+			delReplay: function(commentId,replyId){
+				for(var i = 0; i < this.myData.length; i++ ){
+					if(commentId == this.myData[i].id){
+						for(var j=0;j<this.myData[i].replyList.length;j++){
+							if(this.myData[i].replyList[j].id == replyId){
+								this.myData[i].replyList.splice(j,1);
+							}
+						}
+                    
+					}
+				}
+			},
+			delComment: function(commentId){
+				for(var i = 0; i < this.myData.length; i++ ){
+					if(commentId == this.myData[i].id){
+						this.myData.splice(i,1);
+						break;
+					}
+				}
+			},
+			delAll: function() {
+				this.myData = [];
+			}
+		}
+	})
+	var commentListVm = new Vue({
+		el: '.commentList',
+		data: {
+			myData: [],
+		},
+		methods: {
+			initData: function(data) {
+				this.myData = data;
+					if(hxyapp.appuser!=null){
+						this.myData.ucId=hxyapp.appuser.ucUserId;
+					}else{
+						this.myData.ucId=-1;
+					}
+			},
+			add: function(data) {
+				this.myData.push(data);
+			},
+			getDataId: function(){
+				return this.myData[this.myData.length-1].id;
+			},
+			delReplay: function(commentId,replyId){
+				for(var i = 0; i < this.myData.length; i++ ){
+					if(commentId == this.myData[i].id){
+						for(var j=0;j<this.myData[i].replyList.length;j++){
+							if(this.myData[i].replyList[j].id == replyId){
+								this.myData[i].replyList.splice(j,1);
+							}
+						}
+                    
+					}
+				}
+			},
+			delComment: function(commentId){
+				for(var i = 0; i < this.myData.length; i++ ){
+					if(commentId == this.myData[i].id){
+						this.myData.splice(i,1);
+						break;
+					}
+				}
+			},
+			del: function(index) {
+				this.myData.splice(index, 1)
+			},
+		}
+	})
+	$(function(){
+		loadHotComment();
+		loadAllComment();
+		loadZanMark();
+	})	
+	
+	function loadZanMark(){
+		if(hxyapp.req_u ==null){
+			return;
+		}
+		$.ajax({
+			type:"post",
+			url:"/hybrid/viewArticles.do",
+			data:arData,
+			success:function(data){
+				if(data==null){
+					console.log(data.status);
+				}else{
+					if(data.ret==1){
+						if(data.articleDetail.zanMark){
+							$('.footLink1').find('img').attr('src','images/pl-2-r.png')
+						}
+					}else if(data.ret==0){
+						showLoadError();
+					}
+				}
+			},
+			error:function(data){
+					console.log(data.status)
+				}
+		});
+	}
+	//加载全部评论
+	function loadAllComment(){
+		if(hxyapp.req_u!=null){
+			vueData.u=hxyapp.req_u;
+		}
+		$.ajax({
+			type: "post",
+			url: "/hybrid/commentList.do",
+			data: vueData,
+			success: function(data) {
+				if(data == null) {
+					showLoadError();
+				} else {
+					if(data.ret == 1) {
+						commentListVm.initData(data.commentList);
+					} else if(data.ret == 0) {
+						showLoadError();
+					}
+				}
+			},
+			error: function(data) {
+				console.log(data.status)
+			}
+		});
+	}			
+	//加载热门评论
+	function loadHotComment(){ 
+		if(hxyapp.req_u!=null){
+			vueData.u=hxyapp.req_u;
+		}
+		$.ajax({
+			type: "post",
+			url: "/hybrid/hotComment.do",
+			data: vueData,
+			success: function(data) {
+				if(data == null) {
+					showLoadError();
+				} else {
+					if(data.ret == 1) {
+						vm.add(data.commentList);
+					} else if(data.ret == 0) {
+						showLoadError();
+					}
+				}
+			},
+			error: function(data) {
+				console.log(data.status)
+			}
+		});
+	}
+	//错误处理
+	function showLoadError() {
+		if(confirm("抱歉好像出了一些问题，回到之前页面？")) {
+			window.back();
+			} else {
+				
+		}
+	}
+	//显示评论文本框，并且获取评论ID		
+	function showCommentView(commentId,replyId,toUcId){
+		if(hxyapp.device == null){
+			appStart(0,"nativeWebView?url=http://tbk.xxtapp.cn/hybrid/viewArticle.do?articleid=946");		
+			return;
+		}
+		if(hxyapp.req_u==null){
+			showLogin();
+			return;
+		}
+	   	$('#modal-3').attr('class','md-show md-modal md-effect-3');
+	   	commentIds = commentId;
+	   	toReplyId = replyId;
+	   	toUcIds = toUcId;
+     }
+	//隐藏评论框方法	
+	function hiddenCommentView(){
+	   	$('#modal-3').attr('class','md-modal md-effect-3');
+	   }
+		//给回复按钮添加事件
+	    $(".md-fasong").click(function(){
+	    	if($(".md-contentQy").val() == null || $(".md-contentQy").val()==""){
+	    		showToast("写几个字吧~");
+	    	}else{
+	    		var articleId = $("#articleId").val(); //获取文章ID
+	    		if(commentIds != null && commentIds != undefined && commentIds != ""){
+	    			var  sendData={
+	    					msg:$(".md-contentQy").val(),
+	    					commentId:commentIds,
+	    					contentType:1,
+	    					toUcid:toUcIds,
+	    				};
+	    			if(toReplyId!=undefined||toReplyId!=null){
+						sendData.toReplyId=toReplyId;
+					}
+	    			if(hxyapp.req_u!=null){
+						sendData.u=hxyapp.req_u;
+					}
+	    			$.ajax({
+						type:"post",
+						url:"/hybrid/reply.do",
+						data:sendData,
+						success:function(data){
+							if(data!=null){
+								if(data.ret==1){
+									showToast("回复成功");
+									hiddenCommentView();
+	    							$(".md-contentQy").val(""); //情况文本框内容
+	    							loadHotComment();
+	    							loadAllComment();
+								}else{
+									console.log(data.status);
+								}
+							}else{}
+						}
+					});
+	    		}else{
+	    			var  sendData={
+	    					msg:$(".md-contentQy").val(),
+	    					contentId:articleId,
+	    					contentType:1
+	    				};
+	    			if(hxyapp.req_u!=null){
+						sendData.u=hxyapp.req_u;
+					}
+	    			$.ajax({
+	    				type:"post",
+	    				url:"/hybrid/comment.do",
+	    				data:sendData,
+	    				success:function(data){
+	    					if(data!=null){
+	    						if(data.ret==1){
+	    							showToast("评论成功");
+	    							hiddenCommentView();
+	    							$(".md-contentQy").val(""); //情况文本框内容
+	    							loadAllComment();
+	    						}else{
+	    							console.log(data.status);
+	    						}
+	    					}else{}
+	    				}
+	    			});
+	    		}
+	    	}
+	    }) 
+	    function zanOnclick(obj) {
+		var zanMark = $(obj).attr("zanMark");
+		var postData = {
+			contentId : $(obj).attr("zid"),
+			contentType : $(obj).attr("type")
+		}
+		 if(hxyapp.appuser==null||hxyapp.appuser==undefined){
+			 	showToast("请登录和校园");
+			 }else{
+				if(hxyapp.req_u!=null){
+					postData.u=hxyapp.req_u;
+				}
+				$.ajax({
+					type : "post",
+					url : "/hybrid/zan.do",
+					data : postData,
+					success : function(data) {
+						if (data.ret == 1) {
+							if (zanMark == 'false1') {
+								$(obj).attr("zanMark", 'true1');
+								$(obj).attr("src", 'images/in-10-1.png');
+								$('#zn'+$(obj).attr("zid")+"hot").html(Number($('#zn'+$(obj).attr("zid")+"hot").html()) + 1);
+								$('#zn'+$(obj).attr("zid")+"all").html(Number($('#zn'+$(obj).attr("zid")+"all").html()) + 1);
+							} else {
+								$(obj).attr("zanMark", 'false1');
+								$(obj).attr("src", 'images/in-10.png');
+								$('#zn'+$(obj).attr("zid")+"hot").html(Number($('#zn'+$(obj).attr("zid")+"hot").html()) - 1);
+								$('#zn'+$(obj).attr("zid")+"all").html(Number($('#zn'+$(obj).attr("zid")+"all").html()) - 1);
+							}
+						} else {
+							showToast("操作失败，请稍后重试！");
+						}
+					}
+				}); 
+		 }
+}
+		
+function delReplay(commentId,replyId){
+	if(hxyapp.appuser==null||hxyapp.appuser==undefined){
+	 	showToast("请登录和校园");
+	 }else{
+			var postData={
+					commentId:commentId,
+					replyId:replyId
+				}
+			if(hxyapp.req_u!=null){
+				postData.u=hxyapp.req_u;
+			}
+			$.ajax({
+				type:"post",
+				url:"/hybrid/delReply.do",
+				data:postData,
+				success:function(data){
+					if(data!=null){
+						if(data.ret==1){
+							showToast("删除成功！");
+							commentListVm.delReplay(commentId,replyId);
+							vm.delReplay(commentId,replyId);
+						}else{
+							showToast("删除失败稍后重试！");
+							console.log(data.status);
+						}
+					}else{
+						showToast("删除失败稍后重试！");
+					}
+				}
+			}); 
+	 }
+}		
+mui.init({
+	pullRefresh: {
+		container: '#pullrefresh',
+		up: {
+			height:100,// 可选.默认50.触发上拉加载拖动距离
+			auto:false,// 可选,默认false.自动上拉加载一次
+			contentrefresh : "正在加载...",// 可选，正在加载状态时，上拉加载控件上显示的标题内容
+			contentnomore:'没有更多数据了',// 可选，请求完毕若没有更多数据时显示的提醒内容；
+            callback :pullrefresh
+		}
+	}
+});
+var flag = false;
+function pullrefresh() {
+    var self = this; // 这里的this == mui('#refreshContainer').pullRefresh()
+    // 加载更多的内容
+	setTimeout(function() {
+		mui('#pullrefresh').pullRefresh().endPullupToRefresh(flag); //参数为true代表没有更多数据了。
+		loadMore();
+	}, 1500);
+}
+
+if (mui.os.plus) {
+	mui.plusReady(function() {
+	});
+} else {
+	mui.ready(function() {
+	});
+}		
+function loadMore(){
+	var lamoredata={
+		contentId:$('#articleId').val(),
+		contentType:1,
+		commentId:commentListVm.getDataId()
+	}
+	if(hxyapp.req_u!=null){
+		lamoredata.u=hxyapp.req_u;
+	}
+	$.ajax({
+		type:"post",
+		url:"/hybrid/commentList.do",
+		data:lamoredata,
+		success:function(data){
+			if(data==null){
+				console.log(data.status);
+			}else{
+				if(data.ret==1){
+					if(data.commentList.length!=0){
+						for(var i = 0; i < data.commentList.length; i++){
+							commentListVm.add(data.commentList[i]);
+						}
+					}else{
+						flag = true;
+					}
+				}else if(data.ret==0){
+					console.log(data.status);
+				}
+			}
+		}
+	});
+}
+function delComment(commentId){
+	if(hxyapp.appuser==null||hxyapp.appuser==undefined){
+	 	showToast("请登录和校园");
+	 }else{
+		 var postData={
+					commentId:commentId
+				}
+			if(hxyapp.req_u!=null){
+				postData.u=hxyapp.req_u;
+			}
+			$.ajax({
+				type:"post",
+				url:"/hybrid/delComment.do",
+				data:postData,
+				success:function(data){
+					if(data!=null){
+						if(data.ret==1){
+							showToast("删除成功");
+							commentListVm.delComment(commentId);
+							vm.delComment(commentId);
+						}else{
+							console.log(data.status);
+						}
+					}else{
+					} 
+				}
+			}); 
+	 }
+}
+function articleZan(){
+	if(hxyapp.appuser==null||hxyapp.appuser==undefined){
+		showToast("请登录和校园");
+	}else{
+		if($('.footLink1').find('img').attr('src') == 'images/pl-2-r.png'){
+			showToast("已经点过赞了！");
+			return;
+		}
+		zanData={
+				contentId:$(articleId).val(),
+				contentType:1
+			}
+			if(hxyapp.req_u!=null){
+				zanData.u=hxyapp.req_u;
+			}
+		$.ajax({
+			type:"post",
+			url:"/hybrid/zan.do",
+			data:zanData,
+			success:function(data){
+				if(data!=null){
+					if(data.ret==1){
+						showToast("点赞成功");
+						$('.footLink1').find('img').attr('src','images/pl-2-r.png')
+						$('.footLink1').find('strong').html(Number($('.footLink1').find('strong').html())+1);
+					}else{
+						console.log(data.status);
+					}
+				}else{
+				}
+			}
+		});
+	}
+}
+//全部评论赞方法
+mui("#all").on('tap','#zanImg',function(){zanOnclick(this);});
+//热门评论赞方法
+mui("#hot").on('tap','#zanImg',function(){zanOnclick(this);});
+mui("#pullrefresh").on('tap','#showCommentView',function(){showCommentView($(this).attr('commentId'),$(this).attr('replyId'),$(this).attr('toUcId'));});
+mui("#foot").on('tap','#showPl',function(){showCommentView(null,null,null);});
+mui('body').on('tap','#ahref',function(){document.location.href=this.href;});
+mui('body').on('tap','.plAeLink3',function(){delComment($(this).attr('commentId'));});
+mui('body').on('tap','.plAeLink5',function(){delReplay($(this).attr('commentId'),$(this).attr('replayId'));});
+mui('body').on('tap','.footLink1',function(){articleZan()});
+</script>
+</body>
+</html>
